@@ -14,6 +14,8 @@ fn main() {
         "cpp",
         #[cfg(feature = "css")]
         "css",
+        #[cfg(feature = "clojure")]
+        "clojure",
         #[cfg(feature = "elm")]
         "elm",
         #[cfg(feature = "go")]
